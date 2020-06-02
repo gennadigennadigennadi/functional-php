@@ -1,0 +1,36 @@
+{
+    "name": "gennadigennadigennadi/functional-php",
+    "type": "project",
+    "description": "Trying out functional stuff in php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gennadi Janzen",
+            "email": "gennadijanzen@icloud.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4",
+        "nikic/iter": "^2.0"
+    },
+    "require-dev": {
+        "phpstan/extension-installer": "^1.0",
+        "phpstan/phpstan": "^0.12.25",
+        "phpstan/phpstan-phpunit": "^0.12.10",
+        "phpstan/phpstan-webmozart-assert": "^0.12.4",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gennadigennadigennadi\\Functional\\": "src"
+        },
+        "files": [
+            "src/Functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gennadigennadigennadi\\Functional\\Tests\\": "tests"
+        }
+    }
+}
